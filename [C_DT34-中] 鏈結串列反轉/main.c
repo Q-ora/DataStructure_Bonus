@@ -43,7 +43,7 @@ int main()
         printf(" %d",previous->num);
         previous = previous->link;
     }
-    puts("");
+    printf("\n");
 
     free(first);
 
